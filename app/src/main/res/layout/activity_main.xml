@@ -118,10 +118,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="#ffff0000"
+        android:onClick="OnArrange"
         android:text="Оформить заказ"
         android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
